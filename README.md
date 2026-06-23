@@ -1,8 +1,8 @@
 # Mobile App Engineering
 
-**Build and ship native and cross-platform mobile apps with Claude.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For mobile engineers: build native + cross-platform apps and ship them past store review.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
 
-The mobile stack the catalog was missing. Build Jetpack Compose and Flutter UIs with correct state flow, implement local-first offline sync with real conflict resolution, wire APNs/FCM push end to end, profile jank and memory, and get through App Store and Play submission without the usual rejections.
+The mobile stack the catalog was missing. Reach for it when you own an iOS, Android, Flutter, or React Native app end to end: build UIs with correct state flow and no recomposition jank, add local-first offline sync with real conflict resolution, wire APNs/FCM push from token to tap, profile dropped frames and memory leaks against a frame budget, and get through App Store Connect and Play Console submission without the usual signing and privacy-form rejections.
 
 ⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
@@ -16,12 +16,12 @@ The mobile stack the catalog was missing. Build Jetpack Compose and Flutter UIs 
 
 - **[SwiftUI Expert](skills/swift-ui/SKILL.md)** — Builds SwiftUI views with proper state management, animations, and accessibility.
 - **[React Native Pro](skills/react-native-pro/SKILL.md)** — Builds production React Native apps — navigation, performance, native modules, EAS builds.
-- **[Jetpack Compose Builder](skills/jetpack-compose-builder/SKILL.md)** — Builds Android Jetpack Compose UI with correct state hoisting, unidirectional data flow, and recomposition-safe patterns.
-- **[Flutter Widget Architect](skills/flutter-widget-architect/SKILL.md)** — Structures Flutter widget trees and state management with Riverpod or Bloc, using const widgets and avoiding rebuild storms.
-- **[Mobile Offline Sync](skills/mobile-offline-sync/SKILL.md)** — Implements local-first storage with background sync, conflict resolution, queueing, and retry on mobile.
-- **[Push Notification Wirer](skills/push-notification-wirer/SKILL.md)** — Wires APNs and FCM push end to end including tokens, payloads, deep links, permission UX, and silent pushes.
-- **[Mobile Perf Profiler](skills/mobile-perf-profiler/SKILL.md)** — Diagnoses jank, over-rendering, and memory issues on mobile using frame budget, leak detection, and list virtualization.
-- **[App Store Release Prep](skills/app-store-release-prep/SKILL.md)** — Prepares signing, build config, and store metadata for App Store and Play submission including provisioning, versioning, Fastlane, and common rejection reasons.
+- **[Jetpack Compose Builder](skills/jetpack-compose-builder/SKILL.md)** — Builds Android Jetpack Compose UI with hoisted state, unidirectional data flow, and recomposition-safe patterns.
+- **[Flutter Widget Architect](skills/flutter-widget-architect/SKILL.md)** — Architects Flutter widget trees and Riverpod or Bloc state so rebuilds are scoped, build() stays pure, and const widgets skip recomposition.
+- **[Mobile Offline Sync](skills/mobile-offline-sync/SKILL.md)** — Build local-first mobile storage with an optimistic local store, durable mutation outbox, deliberate conflict resolution, incremental pull, and idempotent background retry.
+- **[Push Notification Wirer](skills/push-notification-wirer/SKILL.md)** — Wires native mobile push end to end on APNs and FCM — device-token registration, alert and silent payloads, permission priming, server send path, and tap routing into the app.
+- **[Mobile Perf Profiler](skills/mobile-perf-profiler/SKILL.md)** — Diagnoses and fixes mobile jank, dropped frames, and growing memory by capturing a trace or heap snapshot, isolating the worst frame or leak, fixing it, and re-measuring against the frame budget.
+- **[App Store Release Prep](skills/app-store-release-prep/SKILL.md)** — Produce a reproducible signing, versioning, and store-declaration pipeline so an iOS or Android build passes App Store Connect / Play Console submission.
 
 ## License
 
